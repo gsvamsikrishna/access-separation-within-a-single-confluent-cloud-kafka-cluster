@@ -59,3 +59,5 @@ You can also see message in the Confluent Cloud UI
 ![image](https://user-images.githubusercontent.com/73946498/191218089-f7177aba-15f1-47a3-b5e9-e9a1bc5bd6fa.png)
 
 
+## References
+- Using ACLs: https://docs.confluent.io/platform/current/kafka/authorization.html#using-acls
