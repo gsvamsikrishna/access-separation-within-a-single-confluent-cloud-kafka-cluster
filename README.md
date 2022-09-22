@@ -37,7 +37,7 @@ You can follow the link here. https://docs.confluent.io/cloud/current/get-starte
 
 ## 3. Repeat the steps in Section 2 by replacing "team1" with "team2" to have a Service Account and ACLs created for Team 2.
 
-## 4. Produce and Consume data using Team 1's Service Account to team1.orders topic works but not for team2.users topic
+## 4. Produce and Consume data using Team 1's Service Account to team1.orders topic works, but not for team2.users topic
 I will be using CLI to demonstrate granular Access. For first time users, click on 'CLI and Tools" on the bottom left corner of the left navigation pane.
 "Confluent CLI" tab shows all the required commands with some pre-populated info such as environment-id and cluster-id.
 
@@ -49,7 +49,7 @@ You can also see message in the Confluent Cloud UI
 ![image](https://user-images.githubusercontent.com/73946498/191202903-7f6bb0b6-193e-48b2-abdf-13d0a307afcd.png)
 
 
-## 5. Produce and Consume data using Team 2's Service Account to team2.users topic works but not for team1.orders topic
+## 5. Produce and Consume data using Team 2's Service Account to team2.users topic works, but not for team1.orders topic
 
 ![image](https://user-images.githubusercontent.com/73946498/191205949-80f6a175-9a32-4410-a4ed-fb37fbe7abd7.png)
 
