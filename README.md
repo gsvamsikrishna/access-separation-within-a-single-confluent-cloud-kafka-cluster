@@ -13,7 +13,7 @@ You can follow the link here. https://docs.confluent.io/cloud/current/get-starte
 ## 1. Create Topics
 
 - Once you are inside a cluster, click on "Topics" on the left navigation menu  > Click on "+Add Topic" or "Create topic"
-- Give a name to topic and choose partitions as needed and click "Create with Defaults"
+- Give a name to the topic and choose partitions as needed and click "Create with Defaults"
 ![image](https://user-images.githubusercontent.com/73946498/191195883-5a99e864-f76a-4d4b-8ddc-3c530a2e5378.png)
 
 ## 2. Create Service Account and ACLs for Team 1.
@@ -38,14 +38,14 @@ You can follow the link here. https://docs.confluent.io/cloud/current/get-starte
 ## 3. Repeat the steps in Section 2 by replacing "team1" with "team2" to have a Service Account and ACLs created for Team 2.
 
 ## 4. Produce and Consume data using Team 1's Service Account to team1.orders topic works, but not for team2.users topic
-I will be using CLI to demonstrate granular Access. For first time users, click on 'CLI and Tools" on the bottom left corner of the left navigation pane.
+I will be using CLI to demonstrate granular Access. For first time users, click on "CLI and Tools" in the bottom left corner of the left navigation pane.
 "Confluent CLI" tab shows all the required commands with some pre-populated info such as environment-id and cluster-id.
 
 ![image](https://user-images.githubusercontent.com/73946498/191204328-a436b4da-d3e2-406b-8a3a-26b4f6c76d1f.png)
 
 P.S: Ignore --offset in consumer. I had a lot of messages already present in the topic.
 
-You can also see message in the Confluent Cloud UI
+You can also see the messages in the Confluent Cloud UI
 ![image](https://user-images.githubusercontent.com/73946498/191202903-7f6bb0b6-193e-48b2-abdf-13d0a307afcd.png)
 
 
